@@ -1,0 +1,23 @@
+{
+  "name": "mergeyaml",
+  "version": "1.0.1",
+  "description": "merge yaml documents in a new one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khezen/mergeyaml.git"
+  },
+  "author": "Guillaume Simonneau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khezen/mergeyaml/issues"
+  },
+  "homepage": "https://github.com/Khezen/mergeyaml#readme",
+  "dependencies": {
+    "mergejson": "^1.0.6",
+    "yaml": "^0.3.0"
+  }
+}
