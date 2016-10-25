@@ -7,7 +7,7 @@ install
 npm install mergeyaml --save
 ```
 
-one.yaml
+one.yml
 ```
 1: hello
 4:
@@ -15,7 +15,7 @@ one.yaml
     4.2: doe
 ```
 
-two.yaml
+two.yml
 ```
 2: world
 4:
@@ -25,7 +25,7 @@ two.yaml
 
 ```
 
-three.yaml
+three.yml
 ```
 3: !
 4: 
