@@ -1,6 +1,6 @@
 {
   "name": "mergeyaml",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "merge yaml documents in a new one",
   "main": "mergeyaml.js",
   "scripts": {

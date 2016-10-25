@@ -27,7 +27,7 @@ two.yml
 
 three.yml
 ```
-3: !
+3: '!'
 4: 
     4.1: jhon
     4.2: lennon
@@ -52,7 +52,7 @@ console.log(mergeyaml([one, two, three]));
 /*
 1: hello
 2: world
-3: !
+3: '!'
 4: 
     4.1: jhon
     4.2: doe
@@ -70,7 +70,7 @@ console.log(mergeyaml([one, two, three]));
 #
 # 1: hello
 # 2: world
-# 3: !
+# 3: '!'
 # 4: 
 #     4.1: jhon
 #     4.2: doe
