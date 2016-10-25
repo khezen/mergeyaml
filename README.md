@@ -58,6 +58,17 @@ console.log(mergeyaml([one, two, three]));
     4.2: doe
     4.3: from two 
 */
-
-
 ```
+
+# Terminal Usage
+ ```
+ npm install -g mergeyaml
+ ```
+ ```
+ mergeyaml $(cat path/to/one.yml) $(cat path/to/two.yml) $(cat path/to/three.yml)
+# ->
+# 1: one
+# 2: two
+# 3: three
+ 
+ ```
