@@ -65,10 +65,15 @@ console.log(mergeyaml([one, two, three]));
  npm install -g mergeyaml
  ```
  ```
- mergeyaml $(cat path/to/one.yml) $(cat path/to/two.yml) $(cat path/to/three.yml)
+ mergeyaml $(cat one.yml) $(cat two.yml) $(cat three.yml)
 # ->
-# 1: one
-# 2: two
-# 3: three
+#
+# 1: hello
+# 2: world
+# 3: !
+# 4: 
+#     4.1: jhon
+#     4.2: doe
+#     4.3: from two 
  
  ```
