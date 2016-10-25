@@ -1,11 +1,14 @@
 {
   "name": "mergeyaml",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "merge yaml documents in a new one",
-  "main": "index.js",
+  "main": "mergeyaml.js",
   "scripts": {
     "start": "node mergeyaml.js",
     "test": "node ./test/test.js"
+  },
+  "bin":{
+    "mergeyaml": "./cmd.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,7 @@
   },
   "homepage": "https://github.com/Khezen/mergeyaml#readme",
   "dependencies": {
-    "mergejson": "^1.0.8",
+    "mergejson": "^1.0.11",
     "yamljs": "^0.2.8"
   }
 }
