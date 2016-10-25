@@ -1,4 +1,4 @@
-Merge 2 documents into a new document.
+Recursively merge yaml documents in a new one
 
 # Node.js Usage
 
