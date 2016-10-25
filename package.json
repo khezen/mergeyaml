@@ -1,6 +1,6 @@
 {
   "name": "mergeyaml",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "merge yaml documents in a new one",
   "main": "mergeyaml.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Khezen/mergeyaml#readme",
   "dependencies": {
-    "mergejson": "^1.0.11",
+    "mergejson": "^1.0.12",
     "yamljs": "^0.2.8"
   }
 }
