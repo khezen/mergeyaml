@@ -1,6 +1,6 @@
 {
   "name": "mergeyaml",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "Recursively merge yaml documents in a new one",
   "keywords": ["merge", "yaml"],
   "main": "mergeyaml.js",
