@@ -1,3 +1,5 @@
+[![NPM Version](http://img.shields.io/npm/v/mergeyaml.svg?style=flat)](https://www.npmjs.org/package/mergeyaml)
+[![NPM Downloads](https://img.shields.io/npm/dm/mergeyaml.svg?style=flat)](https://www.npmjs.org/package/mergeyaml)
 Recursively merge yaml documents in a new one
 
 # Node.js Usage
