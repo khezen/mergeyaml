@@ -1,6 +1,6 @@
 {
   "name": "mergeyaml",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "description": "Recursively merge yaml documents in a new one",
   "keywords": ["merge", "yaml"],
   "main": "mergeyaml.js",
@@ -8,6 +8,7 @@
     "start": "node mergeyaml.js",
     "test": "node ./test/test.js"
   },
+  "man": "./man.1",
   "bin":{
     "mergeyaml": "./cmd.js"
   },
@@ -22,7 +23,7 @@
   },
   "homepage": "https://github.com/Khezen/mergeyaml#readme",
   "dependencies": {
-    "mergejson": "^1.0.15",
+    "mergejson": "^1.0.16",
     "yamljs": "^0.2.8"
   }
 }
