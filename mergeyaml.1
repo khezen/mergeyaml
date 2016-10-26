@@ -1,38 +1,17 @@
-Example:
-
-one.yml
---------
-1: hello
-4:
-    4.1: jhon
-    4.2: doe
+MERGEYAML(1)                User Manuals             MERGEYAML(1)
 
 
-two.yml
---------
-2: world
-4:
-    4.1: jhon
-    4.2: lenon
-    4.3: from two
- 
+NAME
+    mergeyaml
 
-three.yml
---------
-3: '!'
-4: 
-    4.1: jhon
-    4.2: lennon
-    4.3: from three
- 
+SYNOPSIS
+    merge yaml $(cat one.yml) $(cat two.yml) ...
+
+DESCRIPTION
+     Recursively merge yaml documents and print the result.
 
 
-mergeyaml $(cat one.yml) $(cat two.yml) $(cat three.yml)
---------
-1: hello
-2: world
-3: '!'
-4: 
-    4.1: jhon
-    4.2: doe
-    4.3: from two 
+AUTHOR
+     Guillaume Simonneau <simonneaug@gmail.com>
+
+Linux                Last change: OCTOBER 2016
