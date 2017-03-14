@@ -38,7 +38,7 @@ three.yml
 ```
 
 example.js
-```
+```javascript
 'use strict';
 var fs = require('fs');
 var mergeyaml = require('mergeyaml');
