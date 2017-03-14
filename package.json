@@ -1,15 +1,18 @@
 {
   "name": "mergeyaml",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "Recursively merge yaml documents in a new one",
-  "keywords": ["merge", "yaml"],
+  "keywords": [
+    "merge",
+    "yaml"
+  ],
   "main": "mergeyaml.js",
   "scripts": {
     "start": "node mergeyaml.js",
     "test": "node ./test/test.js"
   },
   "man": "mergeyaml.1",
-  "bin":{
+  "bin": {
     "mergeyaml": "./cmd.js"
   },
   "repository": {
