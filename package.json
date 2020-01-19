@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Khezen/mergeyaml#readme",
   "dependencies": {
-    "mergejson": "^1.0.32",
+    "mergejson": "^1.1.0",
     "yamljs": "^0.2.8"
   }
 }
